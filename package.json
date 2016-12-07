@@ -1,5 +1,5 @@
 {
-  "name": "express-routify",
+  "name": "express-stoneroad",
   "version": "0.0.1",
   "description": "Automatically loads routers for express",
   "main": "index.js",
@@ -7,7 +7,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mintyPT/express-routify.git"
+    "url": "git+https://github.com/mintyPT/express-stoneroad.git"
   },
   "keywords": [
     "express",
@@ -22,9 +22,9 @@
   "author": "Mauro Santos <“mauro.goncalo@gmail.com”> (http://maurogoncalo.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mintyPT/express-routify/issues"
+    "url": "https://github.com/mintyPT/express-stoneroad/issues"
   },
-  "homepage": "https://github.com/mintyPT/express-routify#readme",
+  "homepage": "https://github.com/mintyPT/express-stoneroad#readme",
   "dependencies": {
     "extensionless": "^0.1.0"
   }

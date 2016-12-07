@@ -13,7 +13,7 @@ It will load the routes inside ```api/user.js``` to ```api/users``` and inside `
 
 ## Code Example
 
-    var expressRoutesLoader = require('express-routify');
+    var expressRoutesLoader = require('express-stoneroad');
     expressRoutesLoader(app, path.join(__dirname, 'routes'), '/');
 
 ### Router example
@@ -28,7 +28,7 @@ It will load the routes inside ```api/user.js``` to ```api/users``` and inside `
 
 ## Installation
 
-    npm install --save express-routify
+    npm install --save express-stoneroad
 
 ## API Reference
 
