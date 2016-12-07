@@ -10,7 +10,7 @@ const expressRoutesLoader = (app, dir, base_url) => {
     files.forEach( ffile => {
 
         var new_dir = path.join(dir, ffile);
-        if (ffile != 'index') {
+        if (ffile != 'index' && ffile != 'index.js') {
             var new_url = path.join(base_url, ffile);
         } else {
             var new_url = path.join(base_url);
