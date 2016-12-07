@@ -1,0 +1,31 @@
+{
+  "name": "express-routes-loader",
+  "version": "0.0.1",
+  "description": "Automatically loads routers for express",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mintyPT/express-routes-loader.git"
+  },
+  "keywords": [
+    "express",
+    "routes",
+    "loading",
+    "routing",
+    "router"
+  ],
+  "engines": {
+    "node": ">=4.3.2"
+  },
+  "author": "Mauro Santos <“mauro.goncalo@gmail.com”> (http://maurogoncalo.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mintyPT/express-routes-loader/issues"
+  },
+  "homepage": "https://github.com/mintyPT/express-routes-loader#readme",
+  "dependencies": {
+    "extensionless": "^0.1.0"
+  }
+}
