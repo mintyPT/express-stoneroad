@@ -1,10 +1,9 @@
 {
   "name": "express-stoneroad",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Automatically loads routers for express",
   "main": "index.js",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mintyPT/express-stoneroad.git"
@@ -26,6 +25,7 @@
   },
   "homepage": "https://github.com/mintyPT/express-stoneroad#readme",
   "dependencies": {
-    "extensionless": "^0.1.0"
+    "chalk": "^1.1.3",
+    "pad": "^1.0.2"
   }
 }
