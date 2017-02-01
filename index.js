@@ -13,8 +13,13 @@ const methodColors = {
 const expressRoutesLoader = (app, dir, base_url) => {
 
 
+
     // For each file in the dir
     fs.readdirSync(dir).forEach( fileOrDir => {
+
+        if(fileOrDir == '.DS_Store'){
+            return;
+        }
 
         // Build path of the file
         var completePathToFileOrDir = path.join(dir, fileOrDir);

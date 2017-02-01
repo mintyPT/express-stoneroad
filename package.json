@@ -1,6 +1,6 @@
 {
   "name": "express-stoneroad",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Automatically loads routers for express",
   "main": "index.js",
   "scripts": {},
